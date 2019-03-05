@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAEL - Eventos D' León</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="home.html">SAEL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="mcliente.html">Clientes </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mevento.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="mproveedores.html">Proveedores</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Iniciar Sesión</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Perfil</a>
+              <a class="dropdown-item" href="#">Configuración</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Cerrar Sesión</a>
+            </div>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <header>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">Agregar Promocion</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 mx-auto">
+          <div class="jumbotron">
+            <div class="row text-center">
+              <div class="text-center col-12">
+                <h2>Datos de la Promocion</h2>
+              </div>
+              <div class="text-center col-12">
+                <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+                <form id="feedbackForm" class="text-center">
+                  <div class="form-group">
+                    <label for="title">Titulo</label>
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Titulo" aria-describedby="promocionTit">
+                    <span id="promocioName" class="form-text text-muted" style="display: none;">Please enter your name.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="dura">Duración</label>
+                    <input type="text" class="form-control" id="durat" name="durat" placeholder="Duracion" aria-describedby="promocionDura">
+                    <span id="customerPhone" class="form-text text-muted" style="display: none;">Please enter your phone.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="restr">Restriciones</label>
+                    <input type="text" class="form-control" id="restr" name="restr" placeholder="Restriciones" aria-describedby="promocionRes">
+                    <span id="customerEmail" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="descrip">Descripcion general</label>
+                    <textarea rows="10" cols="100" class="form-control" id="descrip" name="descrip" placeholder="Descripcion general" aria-describedby="promoDescrip"></textarea>
+                    <span id="customerInfo" class="form-text text-muted" style="display: none;">Please enter a comment.</span>
+                  </div>
+                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Agregar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h3>Sobre Nosotros</h3>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequatur neque exercitationem distinctio esse! Cupiditate doloribus a consequatur iusto illum eos facere vel iste iure maxime. Velit, rem, sunt obcaecati eveniet id nemo molestiae. In.</p>
+            </div>
+            <div class="col-lg-6 col-12">
+              <h3>Nuestros Valores</h3>
+              <hr>
+              <div>
+            <div class="media">
+              <div class="media-body">
+                <h4 class="mt-0 mb-1">Valor 1</h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quod temporibus veniam deserunt deleniti accusamus voluptatibus at illo sunt quisquam. </div>
+              <a href="#"><img class="ml-3" src="images/75X.gif" alt="placeholder image"></a> </div>
+
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-0 mt-2">
+          <h3>Contact Us</h3>
+          <hr>
+          <address>
+            <strong>Eventos D` León</strong><br>
+            Indian Treasure Link<br>
+            Quitman, WA, 99110-0219<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </address>
+          <address>
+            <strong>Eventos Léon</strong><br>
+            <a href="mailto:#">eventos.last@example.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © MyWebsite. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.2.1.js"></script>
+  </body>
+</html>
